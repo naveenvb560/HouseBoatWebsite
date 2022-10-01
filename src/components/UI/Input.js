@@ -6,6 +6,7 @@ const Input=(props)=> {
         border: "1px solid blue",
         width: "100%",
         height: props.height? props.height:"2rem",
+        paddingLeft: "1rem",
         borderRadius: "10px"
     }
 
