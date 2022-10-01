@@ -1,6 +1,6 @@
 import React from 'react';
 import Input from '../Input';
-import SocialMedia from '../SocialMedia';
+import ContactUsAddress from './ContactUsAddress';
 import './ContactUs.component.scss';
 
 const ContactUs=()=> {
@@ -32,13 +32,7 @@ const ContactUs=()=> {
                     <button className="submit-button">Send</button>
                 </form>
             </div>
-            <div className='contact-details'>
-                <p>
-                Contact Details
-                <SocialMedia height="1.5rem" width="1.5rem" isLine={true}/>
-                </p>
-
-            </div>
+            <ContactUsAddress />
 
         </div>
     )
