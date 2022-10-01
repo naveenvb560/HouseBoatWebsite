@@ -3,10 +3,10 @@
     justify-content: space-between;
     padding: 1rem 2rem;
     height: 3rem;
-    background-color: rgb(146, 74, 74);
+    background-color: var(--body-background-color);
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 
     .boat-icon-container {
         color: white;
