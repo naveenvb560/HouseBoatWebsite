@@ -1,0 +1,21 @@
+.header-container {
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    height: 3rem;
+    background-color: rgb(146, 74, 74);
+    position: sticky;
+    top: 0;
+
+    .boat-icon-container {
+        img {
+            width: 4rem;
+            height: 3rem;
+            border-radius: 50%;
+        }
+    }
+
+    .header-element-parent-container {
+        width: 60%;
+    }
+}

@@ -1,0 +1,25 @@
+.header-element-container {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: inherit;
+
+    .header-element {
+        font-size: 18px;
+        font-weight: 600;
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+
+        &:hover {
+            transform: scale(1.2);
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+    }
+}
