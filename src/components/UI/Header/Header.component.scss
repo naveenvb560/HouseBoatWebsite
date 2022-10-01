@@ -8,10 +8,18 @@
     top: 0;
 
     .boat-icon-container {
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        font-family: 'Brush Script MT', cursive;
+
         img {
             width: 4rem;
             height: 3rem;
             border-radius: 50%;
+            padding-right: 0.5rem;
         }
     }
 

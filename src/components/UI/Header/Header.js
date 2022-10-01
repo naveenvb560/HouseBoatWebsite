@@ -10,6 +10,7 @@ const Header = () => {
         <div className="header-container">
             <div className="boat-icon-container">
                 <img src={boatIcon} />
+                Dream World
             </div>
             <div className="header-element-parent-container">
             <HeaderElement />
