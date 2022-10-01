@@ -7,7 +7,7 @@ const HeaderElement = () => {
         'Packages',
         'HouseBoats',
         'Gallery',
-        'ContactUS',
+        'ContactUs',
         'Location'
     ];
 
