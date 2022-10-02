@@ -19,17 +19,17 @@ const HouseBoats = () => {
 
     return (
         <div className="houseboat-list-container">
-            <h2>List of House Boats available</h2>
+            <h2>House Boats</h2>
             <div className="houseboat-grid-container">
                 {HouseBoatList.map((boatData) => {
                     return (
-                        <Card>
+                        <div className="houseboat-container">
                             <h4>{boatData.name}</h4>
                             <div className="boat-image">
                                 <img alt="boat image" src={boatData.image} />
                             </div>
                             <p> No of rooms available {boatData.Bedrooms}</p>
-                        </Card>
+                            </div>
                     )
                 })}
             </div>
