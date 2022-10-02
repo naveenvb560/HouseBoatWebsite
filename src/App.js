@@ -2,7 +2,8 @@ import './App.css';
 import Header from './components/UI/Header/Header';
 import Home from './components/UI/Home/Home';
 import Location from './components/Location/Location';
-import ContactUs from './components/UI/ContactUs/ContactUs';
+import ContactUs from './components/ContactUs/ContactUs';
+import HouseBoats from './components/HouseBoats/HouseBoats';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Location />
       <ContactUs />
+      <HouseBoats />
     </div>
   );
 }
