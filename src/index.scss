@@ -10,10 +10,14 @@ body {
   background: linear-gradient(to right, #eceee7, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./assets/customFont.ttf) format('ttf');
+}
 
 :root{
 --primary-color: rgb(146, 74, 74);
---body-background-color:#2F0743;
+--body-background-color:#616fad;
 }
 
 code {

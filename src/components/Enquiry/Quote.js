@@ -5,8 +5,7 @@ const Quote=()=> {
 
     return (
         <div className="enquiry-container">
-            <p>Book the perfect Houseboat Cruise at Kumarakom at your own budget, we offer credible houseboat 
-                service at kumarakom with taste food,awesome sightseeing, and incredible service.</p>
+            <p>Boating around in lagoons and lakes of Kerala has always been an out of the world experience.</p>
         </div>
     )
 }
