@@ -9,6 +9,7 @@ const ContactUsAddress = () => {
             <p>
                 Contact Details
             </p>
+            <h3>Dream Palace Houseboats</h3>
             <div className='address'>
                 <img style={{ width: "2rem", height: "2rem" }} src="https://img.icons8.com/ios-filled/50/1A1A1A/visit.png" />
                 <p>

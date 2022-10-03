@@ -1,12 +1,10 @@
 import React from "react";
 import Card from "../UI/Card";
 import './Package.component.scss';
-
+import {PackageDetails} from './packageData'
 const Package=()=> {
 
-    const PackageDetails = {
 
-    }
 
     return (
         PackageDetails.enries().map(([key, value])=> {
