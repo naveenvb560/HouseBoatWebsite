@@ -6,8 +6,8 @@ const HeaderElement = () => {
     const headerLinks = [
         'Packages',
         'HouseBoats',
-        'Gallery',
         'ContactUs',
+        'Gallery',
         'Location'
     ];
 
