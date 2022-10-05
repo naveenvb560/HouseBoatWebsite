@@ -1,7 +1,7 @@
 import React from "react";
-import './Card.component.scss'
+import './Modal.component.scss'
 
-const Card=(props)=> {
+const Modal=(props)=> {
 
     return (
         <div className="card-container">
@@ -10,4 +10,4 @@ const Card=(props)=> {
     )
 }
 
-export default Card;
+export default Modal;

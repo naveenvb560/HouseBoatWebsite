@@ -15,7 +15,7 @@ const HeaderElement = () => {
         <ul className="header-element-container">
             {headerLinks.map(headerElement => (
                 <li className='header-element'>
-                    <a href="#">{headerElement}</a>
+                    <a href={`#${headerElement}`}>{headerElement}</a>
                 </li>
             ))}
         </ul>

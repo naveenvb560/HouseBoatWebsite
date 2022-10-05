@@ -13,7 +13,7 @@ const Home =()=> {
             <div className="company-container">\
 
                 <Quotes />
-                <button className="book-now-button">Contact Now</button>
+                <button className="book-now-button" href="#ContactUs">Contact Now</button>
             </div>
             <Contact />
            

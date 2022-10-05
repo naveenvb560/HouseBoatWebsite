@@ -7,27 +7,61 @@
         margin: 0;
     }
     h2 {
-        font-size: 30px;
-        color: blue;
-        font-weight: 700;
+        font-size: 3rem;
+        color: black;
+        text-align: left;
+        padding: 1rem 0rem 1rem 4rem;
+        font-weight: 500;
+        font-family: "MyFont";
     }
 
     .houseboat-grid-container {
         display: grid;
         justify-items: center;
         grid-template-columns: auto auto;
-        column-gap: 10%;
-        row-gap: 10%;
+        padding-top: 3rem;
 
         h4 {
-            color: blue;
-            font-size: 25px;
-            font-weight: 700;
+            color: black;
+            font-size: 2.5rem;
+            font-weight: 500;
+            font-family: "MyFont";
+
         }
         .houseboat-container {
-            box-shadow: 0rem 0 3rem rgb(146, 144, 144);
+            box-shadow: 0rem 0 1rem rgb(212, 206, 206);
             background-color: white;
             border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            row-gap: 2rem;
+            width: 80%;
+            padding: 2rem;
+            .button-container {
+                display: flex;
+                width: 100%;
+                justify-content: space-evenly;
+                // column-gap: 10%;
+                button {
+                    width: fit-content;
+                    border: none;
+                    // max-width: t;
+                    background-color: rgb(216, 77, 13);
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 600;
+                    padding: .7rem .7rem;
+                    border-radius: 10px;
+                }
+            }
+            p {
+                font-family: "MyFont";
+                font-weight: 500;
+                font-size: 1.8rem;
+            }
+
         }
         .boat-image {
             img {
@@ -37,7 +71,7 @@
 
         p {
             color: black;
-            font-size: 22px;
+            font-size: 28px;
             font-weight: 600;
         }
     }

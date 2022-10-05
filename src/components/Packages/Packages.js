@@ -1,12 +1,11 @@
 import React from "react";
-import Card from "../UI/Card";
 import './Packages.component.scss';
 import { PackageDetails } from './packageData'
 const Package = () => {
 
     return (
-        <div className="package-parent-container">
-                        <h2>Available Packages</h2>
+        <div className="package-parent-container" id="Packages">
+                        <h2>Our Packages</h2>
         
         <div className="package-container">
             {Object.entries(PackageDetails).map(([packageName, packageContents]) => {

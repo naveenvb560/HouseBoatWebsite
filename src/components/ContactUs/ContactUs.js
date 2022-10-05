@@ -7,7 +7,7 @@ const ContactUs=()=> {
 
 
     return (
-        <div className= "contactus-container">
+        <div className= "contactus-container" id="ContactUs">
             <div className='questions-container'>
                 <p>
                     Any Questions ?, Please reach out to us

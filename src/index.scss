@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #FFEEEE;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #eceee7, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #eceee7, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: white;  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #eceee7, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #eceee7, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
 @font-face {
@@ -24,6 +24,14 @@ code {
   font-family: "MyFont"
 }
 
-p {
+p, span, label {
   margin: 0;
+  font-family: "MyFont";
+  
+}
+button {
+  cursor: pointer;
+}
+html {
+  scroll-behavior: smooth;
 }
